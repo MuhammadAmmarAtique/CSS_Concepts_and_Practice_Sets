@@ -1,5 +1,6 @@
 div
 {
+    color: aliceblue;
     background-color: blue;
 }
 
@@ -10,5 +11,5 @@ div
 
 button
 {
-    color:green;
+    background-color:green;
 }
