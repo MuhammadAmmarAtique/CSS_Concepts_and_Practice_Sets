@@ -1,16 +1,21 @@
 h1 
 { 
+    color:#00ff00;
+}
+
+p
+{
+    color:rgb(255,0,0);
+}
+
+button
+{
+    background-color:#ffff00;
     color:red;
-    background-color: burlywood;
 }
 
-span 
+body 
 {
-    color:aqua;
-    background-color: burlywood;
+background-color:whitesmoke;
 }
 
-h2 
-{
-    color:rgb(145, 18, 9)
-}
