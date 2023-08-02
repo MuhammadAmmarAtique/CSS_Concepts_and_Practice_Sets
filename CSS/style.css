@@ -1,9 +1,14 @@
-*
+div
 {
-    color:blue;
+    background-color: blue;
 }
 
-h1
+.heading
 {
-    color: green;
+    color:red;
+}
+
+button
+{
+    color:green;
 }
