@@ -3,15 +3,28 @@ p
     text-align: start;
 
 }
-
-h1
-{
-    text-align: center;
-    text-decoration: line-through;
-}
-
 a
 {
     font-size: 20px;
     text-decoration: none;
+}
+
+#qq
+{
+    font-weight: 100;
+}
+
+#ww
+{
+    font-weight: 300;
+}
+
+#ee
+{
+    font-weight: 700;
+}
+
+#rr
+{
+    font-weight:bolder;
 }
