@@ -1,34 +1,29 @@
-#qq
+*
 {
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    border: 2px solid black;
-    border-radius: 50%;
-}
-
-#ww
-{
-    background-color:#232f3e;
-    height:30px;
-    color:white;
-    
-}
-
-#ee
-{
-    display: inline;
-}
-
-#rr
-{
-    color:#febd69;
-    display: inline;
-}
-
-#tt
-{
+    padding:0px;
+    margin:0px;
     color: white;
-    background-color:#febd69;
+}
 
+#navbar
+{
+    height: 60px;
+    background-color:#0f1111;
+}
+
+#logo
+{
+    color:#f08804;
+    font-size: 25px;
+
+}
+
+button
+{
+    background-color:#f08804;
+}
+
+a{
+    margin-right:200px ;
+    text-decoration: none;
 }
