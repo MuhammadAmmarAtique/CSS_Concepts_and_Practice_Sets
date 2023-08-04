@@ -6,11 +6,17 @@
     color: white;
 }
 
+/* Content Area styling */
+
+#contentarea
+{
+height:575px;
+}
 /* Navigation bar styling */
 
 #navbar
 {
-    height: 60px;
+    height: 40px;
     background-color:#0f1111;
 }
 
@@ -37,6 +43,8 @@ a{
     height:100px;
     width: 100px;
     border:2px solid black;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 #div1
@@ -60,5 +68,7 @@ background-color: rgba(0,0,255,0.5);
 
 #footertext
 {
-color:black;
+color:white;
+text-align: center;
+background-color:#0f1111;
 }
