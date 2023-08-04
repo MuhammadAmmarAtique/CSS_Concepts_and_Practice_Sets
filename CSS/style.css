@@ -1,26 +1,64 @@
+/* Start */
 
-div
-{ 
-    text-align: center;
-    width: 100px; 
-    height: 100px; 
-    margin: 25px;
-    padding: 25px;
-    display:inline-block;
-    color: black;
+*
+{   padding:0px;
+    margin:0px;
+    color: white;
 }
 
-#box1
+/* Navigation bar styling */
+
+#navbar
 {
-   background-color:rgba(0,0,255,0.5) ;
+    height: 60px;
+    background-color:#0f1111;
 }
 
-#box2
+#logo
 {
-    background-color:rgba(0,0,255,0.75) ;
+    color:#f08804;
+    font-size: 25px;
 }
 
-#box3
+#button
 {
-    background-color:rgba(0,0,255,1) ;
+    background-color:#f08804;
+}
+
+a{
+    margin-right:200px;
+    text-decoration: none;
+}
+
+/* 3 divs Styling */
+
+#div1,#div2,#div3
+{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+}
+
+#div1
+{
+background-color: rgba(255,0,0,0.5);
+}
+
+#div2
+{
+    background-color: rgba(0,255,0,0.5);
+
+}
+
+#div3
+{
+background-color: rgba(0,0,255,0.5);
+ 
+}
+
+/* Footer styling */
+
+#footertext
+{
+color:black;
 }
