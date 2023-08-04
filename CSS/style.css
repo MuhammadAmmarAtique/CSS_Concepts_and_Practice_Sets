@@ -1,74 +1,20 @@
-/* Start */
-
-*
-{   padding:0px;
-    margin:0px;
-    color: white;
-}
-
-/* Content Area styling */
-
-#contentarea
+#parent
 {
-height:575px;
+    height: 100px;
+    width:200px;
+    background-color: aqua;
+    padding:10px;
+    margin:50px;
+    border:10px solid black;
 }
-/* Navigation bar styling */
 
-#navbar
+#child
 {
-    height: 40px;
-    background-color:#0f1111;
-}
-
-#logo
-{
-    color:#f08804;
-    font-size: 25px;
-}
-
-#button
-{
-    background-color:#f08804;
-}
-
-a{
-    margin-right:200px;
-    text-decoration: none;
-}
-
-/* 3 divs Styling */
-
-#div1,#div2,#div3
-{
-    height:100px;
-    width: 100px;
+    height: 100%;
+    width:50%;
+    background-color: blue;
+    padding:2%;
+    margin:5%;
     border:2px solid black;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-#div1
-{
-background-color: rgba(255,0,0,0.5);
-}
-
-#div2
-{
-    background-color: rgba(0,255,0,0.5);
-
-}
-
-#div3
-{
-background-color: rgba(0,0,255,0.5);
- 
-}
-
-/* Footer styling */
-
-#footertext
-{
-color:white;
-text-align: center;
-background-color:#0f1111;
-}
+  
+}    
