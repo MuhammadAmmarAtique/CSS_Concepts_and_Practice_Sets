@@ -1,17 +1,5 @@
-*
-{
-    color:white;
-    
-}
 
-h1 { 
-    text-align: center;
-    color: black; 
-    text-decoration: underline;
-
-}
-
-#box1,#box2,#box3 
+div
 { 
     text-align: center;
     width: 100px; 
@@ -19,22 +7,20 @@ h1 {
     margin: 25px;
     padding: 25px;
     display:inline-block;
-
+    color: black;
 }
-
 
 #box1
 {
-    background-color: aqua;
+   background-color:rgba(0,0,255,0.5) ;
 }
 
 #box2
 {
-    background-color: blue;
-    visibility: hidden;
+    background-color:rgba(0,0,255,0.75) ;
 }
 
 #box3
 {
-    background-color: blueviolet;
+    background-color:rgba(0,0,255,1) ;
 }
