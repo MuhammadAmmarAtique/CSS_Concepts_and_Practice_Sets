@@ -1,29 +1,40 @@
 *
 {
-    padding:0px;
-    margin:0px;
-    color: white;
+    color:white;
+    
 }
 
-#navbar
+h1 { 
+    text-align: center;
+    color: black; 
+    text-decoration: underline;
+
+}
+
+#box1,#box2,#box3 
+{ 
+    text-align: center;
+    width: 100px; 
+    height: 100px; 
+    margin: 25px;
+    padding: 25px;
+    display:inline-block;
+
+}
+
+
+#box1
 {
-    height: 60px;
-    background-color:#0f1111;
+    background-color: aqua;
 }
 
-#logo
+#box2
 {
-    color:#f08804;
-    font-size: 25px;
-
+    background-color: blue;
+    visibility: hidden;
 }
 
-button
+#box3
 {
-    background-color:#f08804;
-}
-
-a{
-    margin-right:200px ;
-    text-decoration: none;
+    background-color: blueviolet;
 }
