@@ -1,5 +1,10 @@
-body
+div
 {
+    height:200px;
+    width:200px;
     background-image: url(car.jpg);
     background-size: cover;
+    position:fixed;
+    bottom:0;
+    left:1155px;
 }
