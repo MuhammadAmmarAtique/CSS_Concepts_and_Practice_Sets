@@ -1,23 +1,5 @@
-div{
-    height: 100px;
-    width: 100px;
-    display:inline-block;
-}
-
-
-
-#box1
+body
 {
-    background-color: aqua;
-    position: relative;
-    left:80px;
-    z-index:7;
+    background-image: url(car.jpg);
+    background-size: cover;
 }
-
-#box2
-{
-    background-color: rgb(195, 149, 238);
-    position:relative;
-    z-index:8;
-}
-
