@@ -5,6 +5,7 @@ div
     background-image: url(car.jpg);
     background-size: cover;
     position:fixed;
-    bottom:0;
-    left:1155px;
+    right:0px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
