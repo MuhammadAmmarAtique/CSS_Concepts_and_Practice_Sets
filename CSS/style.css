@@ -1,42 +1,23 @@
-h1
-{
-    text-align: center;
-    text-decoration: underline;
-}
-
-div
-{
-    height:100px;
-    width:100px;
-    border: 2px solid black;
+div{
+    height: 100px;
+    width: 100px;
     display:inline-block;
 }
 
+
+
 #box1
 {
-    background-color: aqua;    
-    /* position:static; */
+    background-color: aqua;
+    position: relative;
+    left:80px;
+    z-index:7;
 }
 
 #box2
 {
-    background-color:blanchedalmond;
+    background-color: rgb(195, 149, 238);
     position:relative;
-    top:10px;
-}
-
-#box3
-{
-    background-color:green;
-    position:absolute;
-    top:20px;
-}
-
-#box4
-{
-    background-color: yellow;
-    position: fixed;
-    top:0;
-    width:100vw;
+    z-index:8;
 }
 
