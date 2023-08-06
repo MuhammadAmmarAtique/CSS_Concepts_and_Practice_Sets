@@ -13,15 +13,18 @@ div
 
 #container
 {
-    width: 800px;
-    height: 200px;
+    width: 500px;
+    height: 800px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
 }
 
 #box1
 {
     background-color: aqua;
+    
 }
 
 #box2
