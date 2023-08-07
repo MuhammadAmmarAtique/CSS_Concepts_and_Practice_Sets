@@ -1,15 +1,19 @@
+/* Solution 1 */
+
+
 *
 {
     padding: 0px;
     margin: 0px;
     font-size: 25px;
+    color: white;
 }
 
 a{
     text-decoration: none;
 }
 
-#navbar
+.navbar
 {
     background-color:#0f1111;
     position: fixed;
@@ -19,8 +23,10 @@ a{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
+    list-style-type: none;
+
 }
 
 button{
@@ -39,30 +45,10 @@ button{
 
 #Logo
 {
- color: #f08804;
- flex-grow: 1;
+    color:#f08804;
 }
 
-#Account
-{
-    color: white;
-    flex-grow: 1;
-}
-
-#Cart
-{
-    color: white;
-    flex-grow: 1;
-
-}
-
-#Contact
-{
-    color: white;
-    flex-grow: 1;
-
-}
-
+/* Solution 2 */
 
 #outer
 {
